@@ -1,0 +1,14 @@
+server:
+  port: 9002    #微服务的集群环境中，通常会为每一个微服务叠加。
+spring:
+  application:
+    name: lagou-service-product
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lagou?useUnicode=true&characterEncoding=utf8&serverTimezone=UTC
+    username: root
+    password: wu7787879
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848 #nacos server 地址
